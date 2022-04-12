@@ -59,7 +59,7 @@ Tous les site doivent être hébergé sur Github, ainsi que les images.</div>
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Merci pour votre prise de contact ! Je reviens vers vous rapidement..."))
+                .then(response => alert("Merci pour votre prise de contact !\nJe reviens vers vous rapidement..."))
                 .catch(error => console.error('Erreur !', error.message))
             })
           </script>
