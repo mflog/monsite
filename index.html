@@ -25,7 +25,7 @@ body {
   
   
   <div><b>Consignes : </b><br>
-- Mon blog photos : Modifier la photo (elle doit être stocké sur Github dans un dossier appelé "image"), le nom, enlever le Powered by&nbsp;w3.css, changer les mots anglais pour les mettre en français.<br>
+- Mon blog photos : Modifier la photo (elle doit être stocké sur Github dans un dossier appelé "images"), le nom, enlever le Powered by&nbsp;w3.css, changer les mots anglais pour les mettre en français.<br>
 - Mon CV en ligne : Remplacer les éléments du CV pour qu’ils correspondent à notre profil<br>
 - Permettre l'enregistrement des données du formulaire dans un fichier Google sheets automatiquement.
 
@@ -71,8 +71,8 @@ Tous les site doivent être hébergé sur Github, ainsi que les images.</div>
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-                .catch(error => console.error('Error!', error.message))
+                .then(response => alert("Merci pour votre prise de contact ! Je reviens vers vous rapidement..."))
+                .catch(error => console.error('Erreur !', error.message))
             })
           </script>
 
