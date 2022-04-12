@@ -62,13 +62,20 @@
         <label>Message</label>
         <input class="w3-input w3-border" required name="Message">
       </div>
-      <button type="submit" class="w3-button w3-block w3-dark-grey">Envoyer</button>
+      <button id="alert" type="submit" class="w3-button w3-block w3-dark-grey">Envoyer</button>
     </form><br>
 
   </div>
 
 <!-- End page content -->
 </div>
+  <script>
+  $("#alert").click(function() {
+   alert("En chantier...\nVeuillez utiliser le formulaire de la page d'accueil");
+});
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
 </body>
 </html>
