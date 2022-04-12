@@ -49,7 +49,7 @@
     <hr>
     <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
 
-    <form action="index.html" >
+    <form action="index.html" onSubmit="redirect()">
       <div class="w3-section">
         <label>Nom</label>
         <input class="w3-input w3-border" type="text"  name="name">
@@ -72,9 +72,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <script>
-  $("#alert").click(function() {
+  /*$("#alert").click(function() {
    alert("En chantier...\nVeuillez utiliser le formulaire de la page d'accueil");
-});
+});*/
+    function redirect() {
+  alert("En chantier...\nVeuillez utiliser le formulaire de la page d'accueil");
+}
+    
   </script>
 
 
